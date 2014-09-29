@@ -1,0 +1,32 @@
+  body {
+		background-color: #98E5FF;
+		font-family: "Arial", Arial;
+	}
+	
+  #error {
+  	color:red;
+  }
+  
+  #wrapper #contains_body #leftNav {
+		display: inline-block;
+		vertical-align: middle;
+		float:left;
+		margin-top: 40px;
+	}
+	
+	#wrapper #contains_body #body_content {
+		display: inline-block;
+		float:left;
+		background-color: white;
+		margin-left: 70px;
+		margin-top: 40px;
+		width:55%;
+	}
+	
+	#wrapper #contains_body #right {
+		float:right;
+		display: inline-block;	
+		position: inherit;
+		margin-top: 40px;
+/* 		border:4px solid #d6d6d6; */
+	} 
