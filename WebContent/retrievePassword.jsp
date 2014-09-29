@@ -5,8 +5,8 @@
 		String driverName = "com.mysql.jdbc.Driver";
 		Class.forName(driverName);
 		Connection conn = DriverManager.getConnection(
-				"jdbc:mysql://104.130.88.118:3306/BonVoyage",
-				"ranjith0212", "Rajsujji1129");
+				"jdbc:mysql://104.130.88.118:3306/onlineGrocery",
+				"surasindhu", "surasindhu");
 	
 
 		Statement stmt = conn.createStatement();
